@@ -9,9 +9,11 @@ body {
 }
 
 header {
-	width: 1000px;
-	height: 110px;
-	margin: 30px 50px;
+	width: 100%;
+	max-width: 900px;
+	height: 100%;
+	max-height: 110px;
+	margin: 5px 50px;
 	background-color: #ffffff;
 	border: none;
 	opacity: 0.6;
@@ -25,7 +27,7 @@ nav {
 
 iframe {
 	width: 100%;
-	max-width: 1000px;
+	max-width: 900px;
 	height: 100%;
 	min-height: 545px;
 	margin: 30px 50px;
