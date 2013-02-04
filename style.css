@@ -21,6 +21,20 @@ header {
 	text-align: center;
 }
 
+article {
+	text-align: center;
+	color: black;
+	width: 100%;
+	height: 100%;
+	max-height: 500px;
+	max-width: 300px;
+	margin: 5px 5px;
+	background-color: #ffffff;
+	border: none;
+	opacity: 0.6;
+	float: left;
+}
+
 .explore {
 	text-align: center;
 	color: black;
