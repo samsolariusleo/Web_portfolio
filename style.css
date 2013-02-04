@@ -21,8 +21,32 @@ header {
 	text-align: center;
 }
 
-nav {
+.explore {
 	text-align: center;
+	color: black;
+	width: 100%;
+	height: 100%;
+	max-height: 700px;
+	max-width: 300px;
+	margin: 5px 5px;
+	background-color: #ffffff;
+	border: none;
+	opacity: 0.6;
+	float: left;
+}
+
+nav h2 {
+	text-align: center;
+	color: black;
+	width: 100%;
+	height: 100%;
+	max-height: 70px;
+	max-width: 300px;
+	margin: 5px 5px;
+	background-color: #ffffff;
+	border: none;
+	opacity: 0.6;
+	float: left;
 }
 
 iframe {
@@ -44,7 +68,8 @@ h1 {
 }
 
 h2 {
-	color: white
+	color: black;
+	font-size: 50px;
 }
 
 p {
@@ -55,7 +80,8 @@ p {
 
 a {
 	text-decoration:none;
-	color: white
+	color: black;
+	font-size: 20px;
 }
 
 #footer {
