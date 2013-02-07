@@ -1,3 +1,5 @@
+/* HEADER AND BODY */
+
 body {
 	background-image:url('images/background_img.png');
 	background-repeat:no-repeat;
@@ -9,9 +11,9 @@ body {
 }
 
 header {
-	width: 90%;
+	width: 94%;
 	height: 80%;
-	margin: 20px 50px 1px 50px;
+	margin: 2% 3% 1px 3%;
 	background-color: #ffffff;
 	border: none;
 	opacity: 0.6;
@@ -19,26 +21,55 @@ header {
 	text-align: center;
 }
 
-nav {
-	width: 20%;
+/* THE BOXES BENEATH THE HEADER */
+
+article {
+	width: 22%;
 	height: 100%;
-	margin: 20px 70px 1px 10px;
+	margin: 2% 3% 1px 1%;
 	background-color: #ffffff;
 	border: none;
 	opacity: 0.6;
 	float: right;
+	position: relative;
+	text-align: center;
+}
+
+nav {
+	width: 22%;
+	height: 100%;
+	margin: 2% 3% 1px 1%;
+	background-color: #ffffff;
+	border: none;
+	opacity: 0.6;
+	float: right;
+	position: relative;
 	text-align: center;
 }
 
 iframe {
 	width: 70%;
 	height: 100%;
-	margin: 30px 50px;
+	min-height: 90%;
+	margin: 2% 1% 1px 3%;
 	background-color: #ffffff;
 	border: none;
 	opacity: 0.6;
 	float: left;
 }
+
+footer {
+	width: 94%;
+	margin: 2% 3% 2% 3%;
+	text-align: center;
+	color: black;
+	background-color: #ffffff;
+	border: none;
+	opacity: 0.6;
+	float: left;
+}
+
+/* TEXT FORMATTING */
 
 h1 {
 	font-family: 'Love Ya Like A Sister', cursive;
@@ -53,7 +84,7 @@ h2 {
 
 p {
 	font-family: 'Englebert', sans-serif;
-	color: white;
+	color: black;
 	font-size: 20px;
 }
 
@@ -62,15 +93,7 @@ a {
 	color: black;
 }
 
-#footer {
-	width: 1000px;
-	height: 2000px;
-	margin: 30px 50px;
-	clear: both;
-	text-align: center;
-	color: black;
-	background-color: #ffffff;
-	border: none;
-	opacity: 0.6;
-	float: left;
+article img {
+	width: 50%;
+	margin-top: 5%;
 }
