@@ -17,7 +17,7 @@
 	</head>
 	<body>
 		<section id='image_gallery'>
-			<article>
+			<article id='intro_to_galleria'>
 				<h2>Welcome to my image gallery!</h2>
 				<p>This gallery contains images that I took on my own, as well as works of art by users on the
 				popular art-sharing website, DeviantArt. Feel free to look around! </p>
@@ -46,6 +46,10 @@
 				<img src='images/gallery/rainbow_rose_img.jpg' title='This rose is an actual flower that has been
 				dyed with the colours of the rainbow :D Created by DeviantArtist lieveheersbeestje'>
 			</article>
+			<script>
+				Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
+				Galleria.run('#galleria');
+			</script>
 		</section>
 	</body>
 </html>
