@@ -100,7 +100,7 @@ a {
 	margin-top: 5%;
 }
 
-#info p {
+#info p, #info a{
 	font-size: 16px;
 }
 
