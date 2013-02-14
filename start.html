@@ -17,9 +17,16 @@
 	<body>
 		<h2>Go Ahead!</h2>
 		<p>Click on the links in the navigation bar to explore this page! Or, you can start <a href='about.html'>
-		here</a>!
-		<p>The current time is: </p>
-		<iframe src="http://free.timeanddate.com/clock/i3i06xuy/fn7/fs24/tct/pct/tt0/tw0/tm1/ts1/tb1" frameborder="0" 
-		width="338" height="35" allowTransparency="true"></iframe>
+		here</a>!<br><br>
+		
+		<!-- Time Widget from Time.is -->
+		<a href="http://time.is/Singapore" id="time_is_link" style="font-size:24px">Time now:</a>
+		<span id="Singapore_z43e" style="font-size:24px"></span>
+		<script src="http://widget.time.is/en.js"></script>
+		<script>
+		time_is_widget.init({Singapore_z43e:{template:"TIME<br/>DATE", 
+		date_format:"dayname, monthname dnum, year, week"}});
+		</script>
+
 	</body>
 </html>
