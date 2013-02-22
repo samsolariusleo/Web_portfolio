@@ -46,3 +46,19 @@ a {
 	width: 100%;
 	background: #000;
 }
+
+.top {
+	font-size: 24px;
+	padding: 5px;
+	text-align: left;
+	background-color: #A9A9A9;
+	border: none;
+}
+
+.bottom {
+	padding: 30px;
+	display: none;
+	text-align: right;
+	background-color: #E0E0E0;
+	border: none;
+}
